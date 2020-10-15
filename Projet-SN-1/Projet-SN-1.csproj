@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\Nouveau dossier\arcreaneinvader-team-2\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
