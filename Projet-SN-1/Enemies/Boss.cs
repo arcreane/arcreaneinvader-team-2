@@ -8,5 +8,6 @@ namespace Projet_SN_1.Ennemis
 {
     class Boss
     {
+
     }
 }
