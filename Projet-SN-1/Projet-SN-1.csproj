@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ennemis\Boss.cs" />
-    <Compile Include="Ennemis\Pawn.cs" />
+    <Compile Include="Enemies\Boss.cs" />
+    <Compile Include="Enemies\Pawn.cs" />
     <Compile Include="Equipements\Bonus.cs" />
     <Compile Include="Equipements\Projectile.cs" />
     <Compile Include="Equipements\Protection.cs" />
-    <Compile Include="Jeu\Menu.cs" />
-    <Compile Include="Jeu\Scenes.cs" />
-    <Compile Include="Jeu\Sprite.cs" />
-    <Compile Include="Jeu\Interface.cs" />
-    <Compile Include="Jeu\Vaisseau.cs" />
+    <Compile Include="Game\Menu.cs" />
+    <Compile Include="Game\Scenes.cs" />
+    <Compile Include="Game\Sprite.cs" />
+    <Compile Include="Game\Interface.cs" />
+    <Compile Include="Game\Vaisseau.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
