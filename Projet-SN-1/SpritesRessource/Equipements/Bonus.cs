@@ -27,7 +27,7 @@ namespace Projet_SN_1
             switch (m_BonusType)
             {
                 case Bonus_Types.MULTIPLE_SHOT:
-                    AddEffect6(p_spaceship);
+                    p_spaceship.ActivateMultipleSHot();
                     break;
                 case Bonus_Types.BOMB:
                     AddEffect5(p_spaceship);

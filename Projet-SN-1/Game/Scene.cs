@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Projet_SN_1
 {
 
-    class Scene
+    public class Scene
     {
         public Scene()
         {
@@ -39,6 +39,11 @@ namespace Projet_SN_1
             //Sprite sprite = new Sprite.Create(Boss)
             //Attend ici le boss
             // Gagne la partie
+        }
+
+        internal void Add(Projectile projectile)
+        {
+            
         }
         //public abstract void Create(Sprite p_SpriteToCreate);// Cree une instance Sprite
     }
