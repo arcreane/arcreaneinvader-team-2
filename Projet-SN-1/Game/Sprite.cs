@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-<<<<<<< HEAD
+
 namespace Projet_SN_1.Pawn
 {
     class Boss
     {
     }
 }
-=======
+
 namespace Projet_SN_1
 {
     public enum Sprites
@@ -39,4 +39,4 @@ namespace Projet_SN_1
         
     }
 }
->>>>>>> b649d4e... ajout de sprite
+

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-<<<<<<< HEAD
-=======
+
 using System.Reflection;
->>>>>>> b649d4e... ajout de sprite
+
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,8 +11,7 @@ namespace Projet_SN_1.Jeu
 {
     class Menu
     {
-<<<<<<< HEAD
-=======
+
         public int Difficulty;
 
         public Menu()
@@ -57,6 +55,5 @@ namespace Projet_SN_1.Jeu
             //Lance le jeu -> Crée la scene puis les sprites
 
         }
->>>>>>> b649d4e... ajout de sprite
     }
 }

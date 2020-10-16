@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1.Ennemis
 {
-<<<<<<< HEAD
-=======
-    //TEST
->>>>>>> b649d4e... ajout de sprite
+
     class Pawn
     {
     }
