@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,13 +16,18 @@ namespace Projet_SN_1
         PROTECTION,
         SPACESHIP
     }
+    public struct Position
+    {
+        public int X{ get; set; }
+        public int Y { get; set; }
+
+    }
     public abstract class Sprite
     {
         public int Max_Wall = 50; // Sera definit avec interface
-        public int Wall = 0;
-        public int Floor = 0;
-        
-        
+        public Position PositionSprite { get; set; }
+
+
         //public abstract void Set_Position(Sprite p_SpriteSetPosition);// Definir le quel Sprite doit etre Deplacer et Ou X,Y
         //public abstract void Destroy(Sprite p_SpriteToDestroy);// Definir le quel Sprite doit etre detruit
 
@@ -29,7 +35,7 @@ namespace Projet_SN_1
 
         //public abstract void HitBox(Sprite p_SpriteHitBox); //Definir la zone ou le sprite est considerer comme "toucher"
 
-        
+
     }
 }
 

@@ -50,7 +50,7 @@
     <Compile Include="SpritesRessource\Equipements\Projectile.cs" />
     <Compile Include="SpritesRessource\Equipements\Protection.cs" />
     <Compile Include="Game\Menu.cs" />
-    <Compile Include="Game\Scenes.cs" />
+    <Compile Include="Game\Scene.cs" />
     <Compile Include="SpritesRessource\Sprite.cs" />
     <Compile Include="Game\Interface.cs" />
     <Compile Include="SpritesRessource\SpaceShip.cs" />
