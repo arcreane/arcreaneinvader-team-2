@@ -8,6 +8,9 @@ namespace Projet_SN_1.Ennemis
 {
     class Boss
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> b649d4e... ajout de sprite
     }
 }

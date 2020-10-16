@@ -52,7 +52,11 @@
     <Compile Include="Game\Scenes.cs" />
     <Compile Include="Game\Sprite.cs" />
     <Compile Include="Game\Interface.cs" />
+<<<<<<< HEAD
     <Compile Include="Game\Vaisseau.cs" />
+=======
+    <Compile Include="Game\SpaceShip.cs" />
+>>>>>>> b649d4e... ajout de sprite
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
