@@ -43,16 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enemies\Boss.cs" />
-    <Compile Include="Enemies\Pawn.cs" />
-    <Compile Include="Equipements\Bonus.cs" />
-    <Compile Include="Equipements\Projectile.cs" />
-    <Compile Include="Equipements\Protection.cs" />
+    <Compile Include="SpritesRessource\Enemies\Boss.cs" />
+    <Compile Include="SpritesRessource\Enemies\Enemy.cs" />
+    <Compile Include="SpritesRessource\Enemies\Pawn.cs" />
+    <Compile Include="SpritesRessource\Equipements\Bonus.cs" />
+    <Compile Include="SpritesRessource\Equipements\Projectile.cs" />
+    <Compile Include="SpritesRessource\Equipements\Protection.cs" />
     <Compile Include="Game\Menu.cs" />
     <Compile Include="Game\Scenes.cs" />
-    <Compile Include="Game\Sprite.cs" />
+    <Compile Include="SpritesRessource\Sprite.cs" />
     <Compile Include="Game\Interface.cs" />
-    <Compile Include="Game\SpaceShip.cs" />
+    <Compile Include="SpritesRessource\SpaceShip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

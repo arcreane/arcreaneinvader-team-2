@@ -3,20 +3,17 @@
 using System.Collections.Generic;
 using System.Linq;
 
-﻿using Projet_SN_1.Ennemis;
-using Projet_SN_1.Jeu;
-using System;
-using System.Collections.Generic;
+using Projet_SN_1;
 
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
-    class Projectile
+    class Projectile : Sprite
     {
 
-        void Tire(Boss p_Boss)
+        void Tire(Enemy p_enemy)
         {
 
         }

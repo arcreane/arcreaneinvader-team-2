@@ -1,6 +1,6 @@
-﻿using Projet_SN_1.Ennemis;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,5 +40,6 @@ namespace Projet_SN_1.Jeu
             //Attend ici le boss
             // Gagne la partie
         }
+        //public abstract void Create(Sprite p_SpriteToCreate);// Cree une instance Sprite
     }
 }

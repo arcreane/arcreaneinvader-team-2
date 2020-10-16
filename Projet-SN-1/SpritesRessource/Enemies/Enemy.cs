@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projet_SN_1.Jeu
+namespace Projet_SN_1
 {
-    class SpaceShip
+    public class Enemy : Sprite
     {
+        protected int test = 0;
+        public Enemy()
+        {
+
+        }
     }
 }

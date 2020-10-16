@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
-namespace Projet_SN_1
+namespace Projet_SN_1.Equipements
 {
-    class Protection
+    class Bonus : Sprite
     {
     }
 }
