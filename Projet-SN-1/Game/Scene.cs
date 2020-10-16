@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Dynamic;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
 
-    public class Scene
+   public class Scene
     {
         public Scene()
         {
-            int NumberOfEnemies = 10 * (new Menu().Difficulty);//Recupere la difficulty
+            int NumberOfEnemies =  10 * (new Menu().Difficulty);//Recupere la difficulty
             int X = 200, Y = 200; // le plus haut a droite
             for (int i = 0; i < NumberOfEnemies; i++)
             {
@@ -24,7 +24,7 @@ namespace Projet_SN_1
                     Y -= Y;
                 }
             }
-            int NumberOfProtections = 6 / ((new Menu().Difficulty) + 1);
+            int NumberOfProtections = 6 / ((new Menu().Difficulty)+1);
             for (int a = 0; a < NumberOfProtections; a++)
             {
                 Y = 20;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-﻿using Projet_SN_1.Jeu;
+using Projet_SN_1;
 
 
 using System.Collections.Generic;
