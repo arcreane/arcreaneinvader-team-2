@@ -18,8 +18,6 @@ namespace Projet_SN_1
     }
     public struct Position
     {
-<<<<<<< HEAD
-=======
 
         public Position(int x, int y) : this()
         {
@@ -27,24 +25,20 @@ namespace Projet_SN_1
             Y = y;
         }
 
->>>>>>> sprite
         public int X{ get; set; }
         public int Y { get; set; }
 
     }
     public abstract class Sprite
     {
-        public int Max_Wall = 50; // Sera definit avec interface
+        public int Max_Wall = 50;
         public Position PositionSprite { get; set; }
 
-<<<<<<< HEAD
-=======
         public Sprite(Position p)
         {
             PositionSprite = p;
              
         }
->>>>>>> sprite
 
         //public abstract void Set_Position(Sprite p_SpriteSetPosition);// Definir le quel Sprite doit etre Deplacer et Ou X,Y
         //public abstract void Destroy(Sprite p_SpriteToDestroy);// Definir le quel Sprite doit etre detruit

@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
-<<<<<<< HEAD
 
    public class Scene
-=======
-    class Scene
->>>>>>> sprite
     {
         public Scene()
         {
