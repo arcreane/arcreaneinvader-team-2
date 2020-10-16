@@ -15,14 +15,12 @@ namespace Projet_SN_1
         static bool Is_Game_Over = false;
         static void Main(string[] args)
         {
-
             Menu test = new Menu();
             Interface i = new Interface();
             while (Is_Game_Over != true)
             {
                 Thread.Sleep(250);
             }
-
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
-   class SpaceShip : Sprite
+   public class SpaceShip : Sprite
     {
 
     }

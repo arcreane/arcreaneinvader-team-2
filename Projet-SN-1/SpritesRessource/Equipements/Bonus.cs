@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
-    public enum BONUS_TYPE
+    public enum Bonus_Types
     {
-        Tir_multiple,
-        Tir_Puissant,
-        Bombe,
-        Invincibilite,
-        Vie_Supplementaire,
-        Energie_Supplementaire
+        MULTIPLE_SHOT,
+        POWERFUL_SOT,
+        BOMB,
+        IVINCIBLITY,
+        ADD_LIFE,
+        ADD_ENERGY
     }
 
 
-    class Bonus : Sprite
+    public class Bonus : Sprite
     {
 
-        public BONUS_TYPE m_BonusType;
+        public Bonus_Types m_BonusType;
 
         public void ApplyBonus(SpaceShip p_spaceship)
         {
-            switch(m_BonusType)
+            switch (m_BonusType)
             {
                 case BONUS_TYPE.Tir_multiple:
                     AddEffect1(p_spaceship);
@@ -39,10 +39,10 @@ namespace Projet_SN_1
                     AddEffect4(p_spaceship);
                     break;
                 case BONUS_TYPE.Vie_Supplementaire:
-                    AddEffect5(p_spaceship);
+                    AddLife();
                     break;
                 case BONUS_TYPE.Energie_Supplementaire:
-                    AddEffect6(p_spaceship);
+                    AddEnergy();
                     break;
                 default:
                     break;
@@ -53,7 +53,7 @@ namespace Projet_SN_1
         private void AddEffect5(SpaceShip p_spaceship) { }
         private void AddEffect4(SpaceShip p_spaceship) { }
         private void AddEffect3(SpaceShip p_spaceship) { }
-        private void AddEffect2(SpaceShip p_spaceship) { }
-        private void AddEffect1(SpaceShip p_spaceship) { }
+        public void AddLife() { }
+        public void AddEnergy() { }
     }
 }

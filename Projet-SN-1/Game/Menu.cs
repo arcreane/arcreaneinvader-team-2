@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projet_SN_1.Jeu
+namespace Projet_SN_1
 {
     class Menu
     {
