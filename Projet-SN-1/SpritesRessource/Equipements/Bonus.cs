@@ -26,22 +26,22 @@ namespace Projet_SN_1
         {
             switch (m_BonusType)
             {
-                case BONUS_TYPE.Tir_multiple:
-                    AddEffect1(p_spaceship);
+                case Bonus_Types.MULTIPLE_SHOT:
+                    AddEffect6(p_spaceship);
                     break;
-                case BONUS_TYPE.Bombe:
-                    AddEffect2(p_spaceship);
+                case Bonus_Types.BOMB:
+                    AddEffect5(p_spaceship);
                     break;
-                case BONUS_TYPE.Tir_Puissant:
-                    AddEffect3(p_spaceship);
-                    break;
-                case BONUS_TYPE.Invincibilite:
+                case Bonus_Types.POWERFUL_SOT:
                     AddEffect4(p_spaceship);
                     break;
-                case BONUS_TYPE.Vie_Supplementaire:
+                case Bonus_Types.IVINCIBLITY:
+                    AddEffect3(p_spaceship);
+                    break;
+                case Bonus_Types.ADD_LIFE:
                     AddLife();
                     break;
-                case BONUS_TYPE.Energie_Supplementaire:
+                case Bonus_Types.ADD_ENERGY:
                     AddEnergy();
                     break;
                 default:

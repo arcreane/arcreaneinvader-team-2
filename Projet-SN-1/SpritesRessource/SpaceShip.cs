@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
-    public class Spaceship : Sprite
+    public class SpaceShip : Sprite
     {
         public bool bIsDead = false;
         public string sSkin = "!_oZo_!";
@@ -14,7 +14,7 @@ namespace Projet_SN_1
 
         public Bonus m_Bonus;
 
-        internal Spaceship()
+        internal SpaceShip()
         {
             m_Bonus = new Bonus(Bonus_Types.IVINCIBLITY);
         }
@@ -23,3 +23,4 @@ namespace Projet_SN_1
         public override void ApplyDamagesToEnnemy(Sprite p_SpriteToApplyDamage) { }
         public override void ReceiveDamage(Sprite p_SpriteToApplyDamage) { }
     }
+}
