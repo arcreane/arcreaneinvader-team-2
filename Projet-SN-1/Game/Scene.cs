@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Projet_SN_1
 {
+<<<<<<< HEAD
 
    public class Scene
+=======
+    class Scene
+>>>>>>> sprite
     {
         public Scene()
         {
@@ -40,11 +44,14 @@ namespace Projet_SN_1
             //Attend ici le boss
             // Gagne la partie
         }
+<<<<<<< HEAD
 
         internal void Add(Projectile projectile)
         {
             
         }
+=======
+>>>>>>> sprite
         //public abstract void Create(Sprite p_SpriteToCreate);// Cree une instance Sprite
     }
 }
